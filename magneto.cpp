@@ -31,6 +31,6 @@ namespace magneto
 {   
     //%
     int testFunction(){
-        return 2;    
+        return 1;    
     }
 }
