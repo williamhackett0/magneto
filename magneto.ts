@@ -78,7 +78,7 @@ namespace magneto {
     //% weight=50
     //% blockId=magneto_device_detected_name_direction_event block="Micro:bit %name Detected To My %direction" blockGap=8
     //% shim=magneto::onDeviceDetectedNameDirection
-    function onDeviceDetectedNameDirection(name : string, direction : Direction, body: () => void): void{
+    export function onDeviceDetectedNameDirection(name : string, direction : Direction, body: () => void): void{
         return;   
     }
 }
