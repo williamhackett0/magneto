@@ -1,0 +1,16 @@
+{
+    "name": "magneto",
+    "version": "0.0.0",
+    "description": "Proximity-Based Relationship System For The BBC Micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "magneto.ts",
+        "magneto.cpp"
+    ],
+    "public": true,
+    "installedVersion": "file:../pxt-banana"
+}
