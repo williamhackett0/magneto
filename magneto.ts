@@ -10,10 +10,7 @@ namespace magneto {
     //% weight=50
     //% blockId=magneto_get_number block="Gets a number from magneto" blockGap=8
     //% shim=magneto::testFunction
-    export function testFunction(): number
-    {
-        return;
-    }
+    export function testFunction(): number;
     
     /**
      * Test function for Magneto
@@ -21,6 +18,6 @@ namespace magneto {
     //% weight=50
     //% blockId=magneto_test block="Dunno" blockGap=8
     export function hmmm(): number{
-        return;
+        return 2;
     }
 }
