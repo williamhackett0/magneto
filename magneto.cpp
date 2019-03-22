@@ -30,7 +30,7 @@ using namespace pxt;
 namespace magneto
 {   
     //%
-    int testFunction(){
+    int test_function(){
         return 2;    
     }
 }
