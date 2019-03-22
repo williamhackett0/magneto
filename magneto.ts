@@ -16,6 +16,16 @@ namespace magneto {
     }
     
     /**
+     * Set the Micro:bit name to be sent over detection
+     */
+    //% weight=50
+    //% blockId=magneto_set_name block="Set Micro:bit name %name" blockGap=8
+    //% shim=magneto::setMicrobitName
+    export function setMicrobitName(name : string): void{
+        return;   
+    }
+    
+    /**
      * Main Detection Block. Put me in the forever loop!
      */
     //% weight=50
