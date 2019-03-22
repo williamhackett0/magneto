@@ -175,6 +175,12 @@ namespace magneto
         uBit.io.P2.setDigitalValue(!state);
     }
     
+    //%
+    void setMicrobitName(string name)
+    {
+        myID = name.c_str();
+    }
+    
     /*
      * Parses information recieved by radio reciever into a radio response class
      */
@@ -451,7 +457,6 @@ namespace magneto
         return 1;
     }
     
-    //%
     void main_function()
     {
         //If no one is pulsing and I'm not pulsing, do magnetic field average
