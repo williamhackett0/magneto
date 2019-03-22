@@ -451,6 +451,7 @@ namespace magneto
         return 1;
     }
     
+    //%
     void main_function()
     {
         //If no one is pulsing and I'm not pulsing, do magnetic field average
