@@ -16,11 +16,12 @@ namespace magneto {
     }
     
     /**
-     * Test function for Magneto
+     * Main Detection Block. Put me in the forever loop!
      */
     //% weight=50
-    //% blockId=magneto_test block="Dunno" blockGap=8
-    export function hmmm(): number{
-        return 2;
+    //% blockId=main_function block="Main Detection Block" blockGap=8
+    //% shim=magneto::main_function
+    export function main_function(): void{
+        return;
     }
 }
