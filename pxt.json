@@ -4,7 +4,8 @@
     "description": "Proximity-Based Relationship System For The BBC Micro:bit",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "radio": "*"
     },
     "files": [
         "README.md",
