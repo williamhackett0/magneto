@@ -11,6 +11,15 @@
         "magneto.ts",
         "magneto.cpp"
     ],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    },
     "public": true,
     "installedVersion": "file:../pxt-banana"
 }
