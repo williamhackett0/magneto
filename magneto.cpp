@@ -27,14 +27,10 @@ DEALINGS IN THE SOFTWARE.
 
 using namespace pxt;
 
-//% color=#E3008C weight=96 icon="\uf012"
 namespace magneto
 {   
-    /**
-     * Test function for Magneto
-     */
-    //% shim=magneto::testFunction
-    TNumber testFunction(){
-        return fromInt(2);    
+    //%
+    int testFunction(){
+        return 2;    
     }
 }
